@@ -3,7 +3,7 @@
 
 CC = g++
 CFLAGS = -std=c++11 -Wall -Wextra -O2
-LIBS = -lgdi32 -luser32 -lkernel32
+LIBS = -ld2d1 -ldwrite -lgdi32 -luser32 -lkernel32
 TARGET = tetris.exe
 SOURCE = main.cpp
 
